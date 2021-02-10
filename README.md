@@ -15,7 +15,7 @@ chmod 755 rtl8761b-fw-installer.sh
 sudo ./rtl8761b-fw-installer.sh
 ```
 # Notes
-Remember to reboot after running the script! If the device still doesn't work after rebooting, then regenerate your initramfs with one of the following commands depending on your distro:
+Remember to reboot after running the script! If the device still doesn't work after rebooting, then regenerate your initramfs with one of the following commands depending on your distro (and reboot after doing so):
 - Debian/Ubuntu (and derivatives):
 ```
 sudo update-initramfs -u
