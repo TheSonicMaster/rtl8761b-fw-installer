@@ -10,7 +10,7 @@ curl -s https://raw.githubusercontent.com/TheSonicMaster/rtl8761b-fw-installer/m
 ```
 Alternatively you can download the script as a file and run it with the following commands:
 ```
-curl -LOs https://raw.githubusercontent.com/TheSonicMaster/rtl8761b-fw-installer/main/rtl8761b-fw-installer.sh
+curl -Os https://raw.githubusercontent.com/TheSonicMaster/rtl8761b-fw-installer/main/rtl8761b-fw-installer.sh
 chmod 755 rtl8761b-fw-installer.sh
 sudo ./rtl8761b-fw-installer.sh
 ```
