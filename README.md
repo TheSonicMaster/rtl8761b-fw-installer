@@ -14,13 +14,14 @@ curl -Os https://raw.githubusercontent.com/TheSonicMaster/rtl8761b-fw-installer/
 chmod 755 rtl8761b-fw-installer.sh
 sudo ./rtl8761b-fw-installer.sh
 ```
+# Notes
 Remember to reboot after running the script! If the device still doesn't work after rebooting, then regenerate your initramfs with one of the following commands depending on your distro:
-Debian/Ubuntu (and derivatives):
+- Debian/Ubuntu (and derivatives):
 ```
 sudo update-initramfs -u
 ```
-Arch Linux (and derivatives):
+- Arch Linux (and derivatives):
 ```
 sudo mkinitcpio -P linux
 ```
-Other distros: Consult your distros documentation/wiki.
+- Other distros: Consult your distro's documentation/wiki.
